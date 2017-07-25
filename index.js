@@ -53,7 +53,7 @@ window.survey = new Survey.Model({ title: 'Employee of the Month',pages: [{ ques
 ]}
 ]});
 survey.onComplete.add(function (s) {
-            document.getElementById("surveyElement").innerHTML = "<span style='font-size:40px'>Thank you for voting!</span>";
+            document.getElementById("surveyElement").innerHTML = "<div style='display: inline-block;position: fixed;top: 0;bottom: 0;left: 0;right: 0;width: 500px;height: 100px;margin: auto;'><span style='font-size:40px'>Thank you for voting!</span></div>";
          });
 
     //survey.onComplete.add(function(result) {
