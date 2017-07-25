@@ -5,7 +5,11 @@ Survey.defaultBootstrapCss.navigationButton = "btn btn-green";
 Survey.JsonObject.metaData.addProperty("dropdown", {name: "renderAs", default: "standard", choices: ["standard", "imagepicker"]});
 
 window.survey = new Survey.Model({ title: 'Employee of the Month',pages: [{ questions: [
-
+    {
+            type: "text",
+            isRequired: true,
+            name: "Email:"
+        },
 
     { type: "dropdown", name: "Ellotheans", renderAs: "imagepicker", title: "Please select the employee of the month:",
         choices: [
