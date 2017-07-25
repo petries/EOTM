@@ -11,7 +11,7 @@ window.survey = new Survey.Model({ title: 'Employee of the Month',pages: [{ ques
             name: "Email:"
         },
 
-    { type: "dropdown", name: "Ellotheans", renderAs: "imagepicker", title: "Please select the employee of the month:",
+    { type: "dropdown", isRequired: true, name: "Ellotheans", renderAs: "imagepicker", title: "Please select the employee of the month:",
         choices: [
             {value: "Aphiwe", text: "images/Aphiwe.png"},
             {value: "Awi", text: "images/Awi.png"},
