@@ -20,7 +20,6 @@ window.survey = new Survey.Model({ title: 'Employee of the Month',pages: [{ ques
             {value: "Evert", text: "images/Evert.png"},
             {value: "George", text: "images/George.png"},
             {value: "Jayson", text: "images/Jayson.png"},
-            {value: "Kyle", text: "images/Kyle.png"},
             {value: "Tyrone", text: "images/Tyrone.png"},
             {value: "Dehan", text: "images/Dehan.png"},
             {value: "WernerP", text: "images/WernerP.png"},
@@ -31,19 +30,15 @@ window.survey = new Survey.Model({ title: 'Employee of the Month',pages: [{ ques
             {value: "Petrie", text: "images/Petrie.png"},
           
             {value: "Alex", text: "images/Alexander.png"},
-            {value: "Anneli", text: "images/Anneli.png"},
             {value: "Deon", text: "images/Deon.png"},
 
             {value: "Hannelie", text: "images/Hannelie.png"},
             {value: "Hesphia", text: "images/Hesphia.png"},
             {value: "Jonathan", text: "images/Jonathan.png"},
-            {value: "Sharné", text: "images/Sharné.png"},
-            {value: "WernerS", text: "images/WernerS.png"},
-                        
+            {value: "Sharné", text: "images/Sharné.png"},                        
             {value: "Francois", text: "images/Francois.png"},
             {value: "Rory", text: "images/Rory.png"},
             {value: "Kayla", text: "images/Kayla.png"},
-            {value: "Fatiema", text: "images/Fatiema.png"},
             {value: "Marisha", text: "images/Marisha.png"},
             {value: "Phillip", text: "images/Phillip.png"}
 
