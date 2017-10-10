@@ -25,12 +25,9 @@ window.survey = new Survey.Model({ title: 'Employee of the Month',pages: [{ ques
             {value: "Davin", text: "images/Davin.png"},
             {value: "Les", text: "images/Les.png"},
             {value: "Michael", text: "images/Michael.png"},
-
-            {value: "Petrie", text: "images/Petrie.png"},
-          
+            {value: "Petrie", text: "images/Petrie.png"},       
             {value: "Alex", text: "images/Alexander.png"},
             {value: "Deon", text: "images/Deon.png"},
-
             {value: "Hannelie", text: "images/Hannelie.png"},
             {value: "Hesphia", text: "images/Hesphia.png"},
             {value: "Jonathan", text: "images/Jonathan.png"},
@@ -39,6 +36,8 @@ window.survey = new Survey.Model({ title: 'Employee of the Month',pages: [{ ques
             {value: "Rory", text: "images/Rory.png"},
             {value: "Kayla", text: "images/Kayla.png"},
             {value: "Marisha", text: "images/Marisha.png"},
+	    {value: "Marisha", text: "images/JohanB.png"},
+	    {value: "Marisha", text: "images/JonathanS.png"},
          ]
     },
 
